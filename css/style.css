@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    background: #F9F6F1;
+}
+.container__header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navigation__header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.links__box__first {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.links__box__second {
+    max-width: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__link{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+.logo__box {
+    max-width: 201px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo__link {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #212121;
+    text-decoration: none;
+}
+.cart__box {
+    display: flex;
+    max-width: 95px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart__box::after {
+    content: ' ';
+    position: relative;
+    top: 0;
+    left: 14px;
+    font-family: 'Montserrat', sans-serif;
+    width: 46px;
+    height: 15px;
+    padding-left: 14px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: url(../img/arrow.svg) no-repeat;
+}
+.button__cart__counter {
+    width: 33px;
+    height: 15px;
+    background: #D7B399;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
